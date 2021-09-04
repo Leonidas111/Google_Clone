@@ -35,7 +35,7 @@ header nav .nav-right-section{
 
 header .nav-right-section a{
     margin-right: 20px;
-    color: #000000;
+    color: #5f6368;
 
 }
 
@@ -55,7 +55,7 @@ nav .nav-right-section img{
 }
 
 main{
-    margin-top: 150px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -66,5 +66,52 @@ main .main-logo {
 }
 
 main .main-logo img{
-    width: 400px;
+    width: 300px;
+}
+
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid rgb(223 225 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+main .main-input .search-icon{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS10zvJylMWIK0N-M2V9JqQcyDGIMLXmna2rgU2DM9eCycIsj59WSoo0K3zKvnoCXcWRDg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+
+}
+
+main .main-input .micro-icon{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-C9NgoDKD_kwtuCg6ZEn36AUV1JeSO8uN558IYxehXfidDdx1qqjUkBp8mqOVTdOyUoA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
 }
